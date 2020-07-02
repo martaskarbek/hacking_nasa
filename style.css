@@ -18,8 +18,16 @@ h1 {
     margin-left: 25vw;
 }
 
-.button {
+.main {
+    position: relative;
     font-size: 20px;
     margin-top: 5vh;
     margin-left: 25vw;
+    margin-right: 55vw;
+}
+
+a {
+    color: black;
+    text-decoration-line: none;
+    cursor: pointer;
 }
