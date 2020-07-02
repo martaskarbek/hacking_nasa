@@ -10,3 +10,16 @@ body {
     height: 100vh;
     font-family: 'Roboto Mono', monospace;
 }
+
+h1 {
+    position: relative;
+    font-size: 30px;
+    margin-top: 40vh;
+    margin-left: 25vw;
+}
+
+.button {
+    font-size: 20px;
+    margin-top: 5vh;
+    margin-left: 25vw;
+}
