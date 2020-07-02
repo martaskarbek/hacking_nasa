@@ -31,3 +31,17 @@ a {
     text-decoration-line: none;
     cursor: pointer;
 }
+
+nav {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    font-size: 40px;
+    margin-top: 40vh;
+}
+
+.button {
+    position: center;
+    text-align: center;
+}
+
