@@ -94,3 +94,26 @@ nav {
     left: 520px;
     text-align: justify;
 }
+
+.gallery {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+img {
+    position: relative;
+    top: 30px;
+    left: 15%;
+}
+
+footer {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    width: 100%;
+    height: 15px;
+    text-align: center;
+}
+
