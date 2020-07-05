@@ -46,3 +46,11 @@ nav {
     text-align: center;
 }
 
+.about {
+    margin-top: 25%;
+    margin-left: 25%;
+    text-align: center;
+    font-size: 25px;
+    width: 50vw;
+    height: 50vh;
+}
