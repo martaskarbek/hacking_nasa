@@ -2,6 +2,7 @@ const themeChanger = document.querySelector('button');
 const page = document.querySelector('body');
 const buttons = document.querySelectorAll('.button'); // NodeList (możemy użyć konstrukcji forEach)
 const mainButton = document.querySelectorAll('.main');
+const returnButton = document.querySelector('.return');
 
 function init() {
     // check if darkMode is not set, then is eqal false
@@ -17,6 +18,7 @@ function init() {
     buttons.forEach(button => button.classList.toggle('dark-text'));
     mainButton.forEach(button => button.classList.toggle('dark-background'));
     themeChanger.classList.toggle('dark-background');
+    returnButton.classList.toggle('dark-background');
 }
 
 function changeTheme() {
@@ -25,6 +27,7 @@ function changeTheme() {
     //themeChanger.classList.toggle('dark-button');
     mainButton.forEach(button => button.classList.toggle('dark-background'));
     themeChanger.classList.toggle('dark-background');
+    returnButton.classList.toggle('dark-text');
 
     let darkMode = localStorage.getItem("darkMode");
     darkMode = darkMode === 'false' ? false : true
