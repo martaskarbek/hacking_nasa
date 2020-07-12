@@ -1,0 +1,14 @@
+.dark-background {
+    background-color: black;
+    color: white;
+}
+
+.dark-text {
+    color: white
+}
+
+.dark-button {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
