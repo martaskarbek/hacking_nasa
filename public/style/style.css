@@ -132,3 +132,8 @@ button {
     cursor: pointer;
     outline: none;
 }
+
+input {
+    display: block;
+    cursor: pointer;
+}
