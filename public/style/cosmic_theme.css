@@ -1,0 +1,8 @@
+.cosmic-background {
+    background-image: url("/photos/astronomy-1867616_1280.jpg");
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
