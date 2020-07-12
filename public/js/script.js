@@ -26,7 +26,6 @@ function changeTheme() {
     mainButton.forEach(button => button.classList.toggle('dark-background'));
     themeChanger.classList.toggle('dark-background');
 
-
     let darkMode = localStorage.getItem("darkMode");
     darkMode = darkMode === 'false' ? false : true
     console.log(darkMode);
