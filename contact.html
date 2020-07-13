@@ -12,15 +12,18 @@
     <link rel="stylesheet" href="public/style/style.css">
     <link rel="stylesheet" href="public/style/style_dark.css">
     <script src="public/js/themeChanger.js" defer></script>
+    <script src="public/js/email_submition.js" defer></script>
 </head>
 <body>
     <a href="main.html" class="return"><i class="fas fa-arrow-left"></i></a>
     <button>Change theme</button>
     <form>
-        <input type="text" name="e-mail">
+        <input type="text" name="e-mail" id="email">
         <input type="text" name="name">
         <input type="text" name="message" class="message">
+        <button type='submit' id='validate'>Submit</button>
     </form>
+
     <footer> Copyright &#169 Marta Skarbek 2020</footer>
 </body>
 </html>

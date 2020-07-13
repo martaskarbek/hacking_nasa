@@ -139,3 +139,14 @@ input {
     margin-left: 1vh;
     margin-top: 1vh;
 }
+
+#validate {
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    background-color: red;
+    position: fixed;
+    top: 75vh;
+    left: 10vw;
+    width: 20vw;
+}
