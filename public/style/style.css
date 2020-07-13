@@ -12,6 +12,7 @@ body {
     overflow: hidden;
     background-color: white;
     color: black;
+    display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
@@ -19,15 +20,21 @@ body {
 
 h1 {
     font-size:1.8em;
-    margin-top: 40vh;
-    margin-left: 25vw;
+    margin-top: 25vh;
 }
 
 .main {
     font-size: 1.3rem;
-    margin-top: 5vh;
     margin-left: 25vw;
-    margin-right: 55vw;
+    margin-bottom: 10vh;
+    margin-top: 5vh;
+    width: 70vw;
+    height: 10vh;
+}
+
+.title {
+    width: 70vw;
+    margin-left: 25vw;
 }
 
 a {
@@ -50,68 +57,32 @@ nav {
 }
 
 .about {
-    margin-top: 25%;
-    margin-left: 25%;
     text-align: center;
     font-size: 1.7em;
     width: 50vw;
-    height: 50vh;
+    height: auto;
 }
 
 .box {
-    position: absolute;
+    margin-top: 10vh;
     width: 100%;
     height: 100%;
     font-size: 1.2rem;
 }
 
-.box1 {
+.box1, .box2, .box3, .box4 {
+    margin-left: 5vw;
     width: 60vw;
     height: 20vh;
-    position: relative;
-    top: 20px;
-    left: 20px;
-    text-align: justify;
-}
-
-.box2 {
-    width: 60vw;
-    height: 20vh;
-    position: relative;
-    top: 50px;
-    left: 520px;
-    text-align: justify;
-}
-
-.box3 {
-    width: 60vw;
-    height: 20vh;
-    position: relative;
-    top: 80px;
-    left: 20px;
-    text-align: justify;
-}
-
-.box4 {
-    width: 60vw;
-    height: 20vh;
-    position: relative;
-    top: 110px;
-    left: 520px;
     text-align: justify;
 }
 
 .gallery {
-    position: absolute;
-    width: 100%;
-    height: 100%;
+    display: flex;
     overflow: auto;
-}
-
-img {
-    position: relative;
-    top: 30px;
-    left: 15%;
+    flex-direction: column;
+    width: 65vw;
+    height: 75vh;
 }
 
 footer {
