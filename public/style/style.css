@@ -12,6 +12,7 @@ body {
     overflow: hidden;
     background-color: white;
     color: black;
+    display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
@@ -56,12 +57,10 @@ nav {
 }
 
 .about {
-    margin-top: 25%;
-    margin-left: 25%;
     text-align: center;
     font-size: 1.7em;
     width: 50vw;
-    height: 50vh;
+    height: auto;
 }
 
 .box {
@@ -79,16 +78,11 @@ nav {
 }
 
 .gallery {
-    position: absolute;
-    width: 100%;
-    height: 100%;
+    display: flex;
     overflow: auto;
-}
-
-img {
-    position: relative;
-    top: 30px;
-    left: 15%;
+    flex-direction: column;
+    width: 65vw;
+    height: 75vh;
 }
 
 footer {
