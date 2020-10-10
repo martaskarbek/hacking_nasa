@@ -18,6 +18,21 @@ body {
     align-items: center;
 }
 
+
+.theme {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    border: hidden;
+    text-align: center;
+    background-color: white;
+    width: 200px;
+    height: 40px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    outline: none;
+}
+
 h1 {
     font-size:1.8em;
     margin-top: 25vh;
@@ -51,11 +66,6 @@ nav {
     margin-top: 40vh;
 }
 
-.button {
-    position: center;
-    text-align: center;
-}
-
 .about {
     text-align: center;
     font-size: 1.7em;
@@ -82,7 +92,6 @@ nav {
     overflow: hidden;
     flex-direction: column;
     align-items: center;
-    /*justify-content: center;*/
     width: 65vw;
     height: 75vh;
 }
@@ -104,25 +113,11 @@ footer {
     text-align: center;
 }
 
-button {
-    position: fixed;
-    top: 10px;
-    right: 10px;
-    border: hidden;
-    text-align: center;
-    background-color: white;
-    width: 200px;
-    height: 40px;
-    font-size: 1.2rem;
-    cursor: pointer;
-    outline: none;
-}
-
 .button:active , button:active, .return:active {
     border: hidden;
 }
 
-input {
+input, textarea, #validate {
     display: block;
     cursor: pointer;
     margin: 2vh;
@@ -140,13 +135,11 @@ input {
     margin-top: 1vh;
 }
 
-#validate {
-    margin-left: auto;
-    margin-right: auto;
-    position: fixed;
-    background-color: red;
-    position: fixed;
-    top: 75vh;
-    left: 10vw;
-    width: 20vw;
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
+
+a {outline : none;}
